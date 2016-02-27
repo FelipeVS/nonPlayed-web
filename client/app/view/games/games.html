@@ -1,0 +1,12 @@
+<div class="row">
+  <div class="col-sm-6 col-md-4"  ng-repeat="game in games">
+    <div class="thumbnail">
+      <img ng-src="{{game.imageSrc + $index}}" alt="">
+      <div class="caption">
+        <h3>{{game.title}}</h3>
+        <p>{{game.genre}}</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+</div>
